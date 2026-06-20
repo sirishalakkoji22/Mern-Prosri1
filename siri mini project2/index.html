@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Search History Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <h2>Recent Cities</h2>
+        <ul id="historyList"></ul>
+    </div>
+
+    <div class="main">
+        <h1>🌦 Weather Dashboard</h1>
+
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter city">
+            <button onclick="getWeather()">Search</button>
+        </div>
+
+        <div id="weather"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
